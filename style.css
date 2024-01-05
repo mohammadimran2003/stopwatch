@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.toogleBtn {
+    border: 2px solid #c4c4c4;
+    width: 100px;
+    display: flex;
+    gap: .1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p {
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding:  4px 8px;
+    border-radius: 5px;
+    margin: 15px 2.5px;
+}
+
+#startPauseBtn {
+    width: 4rem;    
+    background-color: #205785;
+}
+
+#reset {
+    background-color: red;
+}
